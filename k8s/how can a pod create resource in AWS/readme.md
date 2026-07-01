@@ -48,7 +48,3 @@ you must register your EKS cluster as an OIDC identity provider in your **AWS IA
 3. **Deploy the Helm Chart:** Install the official `aws-load-balancer-controller` via Helm inside your cluster,
 passing it your cluster name and the created ServiceAccount.
 
-If you're setting this up right now and need assistance:
-the exact IAM Trust Policy JSON required for IRSA setup,
-a Helm installation command for the **AWS Load Balancer Controller**, or
-a sample Ingress YAML configured to trigger an **AWS Application Load Balancer (ALB)**.
